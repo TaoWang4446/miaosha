@@ -1,0 +1,48 @@
+第一部分:集成 thymleaf mysql redis mybatis
+fastjson 序列化以后是可读的json文本,不是二进制文件.
+
+interface : 定义一些契约,
+    ^
+abstract : 实现一些共通的实现
+    ^
+实现类 : 一些特殊的实现留给子类实现
+
+以上的设计模式称为 模板模式
+
+第二部分:
+数据库设计
+明文密码两次md5处理
+jsr303参数校验+全局异常处理
+分布式session
+@CookieValue(value=MiaoshaUserService.COOKI_NAME_TOKEN,required = false) String cookieToken,
+					   @RequestParam(value=MiaoshaUserService.COOKI_NAME_TOKEN,required = false) String paramToken
+参数解析
+
+
+第三部分
+数据库设计  商品表 订单表 商品秒杀表  秒杀订单表
+商品的列表页
+商品的详情页
+订单详情页
+
+
+第四部分
+jmeter压力测试
+
+第五部分
+
+页面缓存:取缓存 手动渲染模板  结果输出
+url缓存
+对象缓存
+
+页面静态化 angularjs,vue.js
+ 前后端分离
+
+静态资源优化
+
+cdn优化 利用浏览器的缓存
+
+
+
+
+
